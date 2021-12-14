@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('bg-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.dark-overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header, .footer {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E7DFDD;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+}
+
+li {
+    font-weight: 900;
+    list-style: none;
+    font-size: 2.3vmin;
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+    overflow-y: scroll;
+    color: #E7DFDD;
+    padding: 0 15%;
+}
+
+.header-title {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-size: 3vmin;
+    text-shadow:
+    -3px -3px 0 #000,  
+     3px -3px 0 #000,
+     -3px 3px 0 #000,
+      3px 3px 0 #000;
+}
+
+.main-info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12vh;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vmin;
+    gap: 3vmin;
+}
+
+.img-overlay {
+    background-image: url('drinks-img.jpg');
+    border-radius: 30px;
+    width: 40vh;
+    height: 26.7vh;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: auto;
+
+}
+
+.darken {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.main-info h2 {
+    font-size: 3.5vmin;
+}
+
+.main-info p {
+    font-size: 2vmin;
+    text-align: center;
+    margin-bottom: 5%;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.footer {
+    gap: 0.5%;
+}
+.footer h3 {
+    font-size: 1.5vmin;
+}
+
+.footer img {
+    width: 1.5vmin;
+}
+
+.menu-title {
+    margin-top: 3%;
+}
+
+.menu-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-item {
+    display: flex;
+}
+
+.menu-text {
+    padding-right: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vmin;
+}
+
