@@ -37,10 +37,19 @@ ul {
     gap: 8%;
 }
 
-li {
+button {
     font-weight: 900;
     list-style: none;
     font-size: 2.3vmin;
+    color: #E7DFDD;
+    background-color: transparent;
+    border: none;
+    font-family: 'DejaVu serif';
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
 }
 
 #content {
@@ -150,3 +159,15 @@ li {
     gap: 0.5vmin;
 }
 
+.hours-title {
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+.contact-para {
+    margin-bottom: 20%;
+}
+
+.contact-para {
+    margin: 8% 0;
+}
